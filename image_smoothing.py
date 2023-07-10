@@ -59,8 +59,8 @@ def main():
     image = cv2.imread(image_path, cv2.IMREAD_COLOR)
 
     # Define the bandwidths for spatial and range domains
-    h_s = 80.0
-    h_r = 80.0
+    h_s = 10.0
+    h_r = 10.0
 
     # Define the truncation value for the Gaussian distribution
     truncation = 30
